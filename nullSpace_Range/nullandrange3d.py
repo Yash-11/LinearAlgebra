@@ -51,5 +51,8 @@ for i in range(len(x3)):
 ax.scatter(null[0], null[1], null[2], color='orange')
 ax.set_aspect('auto')
 
+
+ax.set(xlabel='X', ylabel='y', zlabel='z')
+
 # plt.show()
 fig.savefig('nullandrange.png')
